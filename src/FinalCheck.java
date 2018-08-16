@@ -6,5 +6,11 @@ public class FinalCheck extends FinalDemo{
 		char v='1';
 		System.out.println("Final Demo");
 	}
+	
+	void gitHubAddingMethod()
+	
+	{
+		System.out.println("inside gitHubAddingMethod");
+	}
 
 }
