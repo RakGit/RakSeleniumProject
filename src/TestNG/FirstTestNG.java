@@ -15,6 +15,15 @@ public class FirstTestNG {
 		objAut.getScreenShot();
 	
 	}
+	@Test
+	public void T2() throws Exception
+	{
+		AutoITDemo objAut=new AutoITDemo();
+		objAut.driver();
+		objAut.fileUpload();
+		objAut.getScreenShot();
+	
+	}
 	
 	
 
