@@ -8,6 +8,7 @@ public abstract class AbstractClassTest {
 	void interset123(int inty)
 	{
 		System.out.println("inside interest");
+		System.out.println("Added New Lines");
 	}
 	
 	
