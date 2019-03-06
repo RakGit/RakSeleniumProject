@@ -63,6 +63,7 @@ public class AutoITDemo {
 		
 		TakesScreenshot screenShot=(TakesScreenshot)(driver);
 		File sourceFile=screenShot.getScreenshotAs(OutputType.FILE);
+		//Added Some lines
 		try {
 			FileUtils.copyFile(sourceFile, new File("D:\\error.png"));
 		} catch (IOException e) {
