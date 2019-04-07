@@ -25,7 +25,8 @@ public class HeadlessBrowserTest {
       
        // Submit the query. Webdriver searches for the form using the text input element automatically		
        // No need to locate/find the submit button		
-       element.submit();			
+       element.submit();	
+       System.out.println("1231445");
        
 		// This code will print the page title		
        System.out.println("Page title is: " + driver.getTitle());	
