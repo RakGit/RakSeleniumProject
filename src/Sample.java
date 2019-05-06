@@ -18,6 +18,7 @@ public class Sample {
 	       int f=Sample.a;
 	       System.out.println(f);
 	       Sample.abc();
+	       System.out.println("Git Changes");
 	}
 
 }
