@@ -78,6 +78,7 @@ public class AutoITDemo {
 		AutoITDemo autoITDemo=new AutoITDemo();
 		autoITDemo.driver();
 		autoITDemo.fileUpload();
+		System.out.println("GitHub Testing");
 
 	}
 }
